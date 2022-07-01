@@ -15,9 +15,9 @@ export default function App() {
 
     return (
         <div>
-            <button onClick={() => { increment() }}>Increment</button>
+            <button onClick={() => { increment() }}>Increments</button>
             <h3>{count}</h3>
-            <button onClick={() => { decrement() }}>Decrement</button>
+            <button onClick={() => { decrement() }}>Decrements</button>
 
         </div>
     )
